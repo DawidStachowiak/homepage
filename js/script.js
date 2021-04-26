@@ -1,4 +1,4 @@
-console.log ("Cześć wszystkim dodano do repozytorium  gita");
+console.log ("Cześć wszystkim dodano do repo  gita");
 
 let button = document.querySelector(".js-image__remove");
 let imageRemove = document.querySelector(".image");
