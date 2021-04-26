@@ -1,0 +1,38 @@
+.navigation {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 950px;
+}
+
+.hide__navigation  {
+    display: none;
+}
+
+.hidden__image{
+    display: none;
+}
+
+.navigation__items {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(37, 37, 37);
+    border-color: rgb(165, 42, 42);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navigation__link:focus {
+    outline: 1px solid rgb(255, 140, 0);
+}
+
+.navigation__link:hover {
+    color: rgb(165, 42, 42);
+    border-bottom: 1px solid rgb(165, 42, 42);
+    outline: none;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="style/mainContainer.css" />
+  <link rel="stylesheet" href="style/navigation.css" />
+  <link rel="stylesheet" href="style/table.css" />
+  <link rel="stylesheet" href="style/sections.css" />
+  <link rel="stylesheet" href="style/footer.css" />
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@100;400&display=swap"
+    rel="stylesheet">
+
+  <title>Stronka moduł3 Dawid Stachowiak</title>
+</head>
+
+<body class="mainContainer">
+  <header class="header">
+    <h1><span class="mainContainer__header">Cześć!</span> Parę słów o mnie</h1>
+  </header>
+
+  <nav class="navigation">
+    <ul>
+      <li class="navigation__items"><a class="navigation__link" href="#about">O mnie</a></li>
+      <li class="navigation__items"><a class="navigation__link" href="#hobby">Hobby</a></li>
+      <li class="navigation__items"><a class="navigation__link" href="#courses">Kursy</a></li>
+      <li class="navigation__items"><a class="navigation__link" href="#table">Wykonawcy</a></li>
+      <li class="navigation__items"><a class="navigation__link" href="#contactMe">Kontakt</a></li>
+    </ul>
+  </nav>
+
+
+
+  <section class="section" id="about">
+    <h2 class="section__header">O mnie</h2>
+    <img class="image" src="img/me.png" alt="zdjecie Dawid Stachowiak" />
+    <p>
+      Cześć. Mam na imię Dawid, mam 33 lata (w tym roku 34 :) ) na codzień
+      zajmuję się obsługą informatyczną firm. Po pracy staram się spędzić czas
+      z rodziną natomiast nie zawsze mi to wychodzi, ponieważ zawsze znajdą
+      się jakieś inne rzeczy/zadania Lubię też podłubać w elektronice.
+      Ostatnio postanowiłem spróbować tego, co zawsze chciałem robić. Moja
+      wiedza jest nieuporządkowana więc dlatego
+      <strong>przystąpiłem do kursu Youcode.</strong>
+    </p>
+
+  </section>
+
+  <section class="section" id="hobby">
+    <h2 class="section__header">Hobby</h2>
+    <p>
+      Jestem zawodnikiem 3 ligi drużyny Pogoni Mogilno w tenisie stołowym.
+      Tenis był ze mną od 2 klasy podstawowej i jest do dziś. Próbuję wciągnąć
+      w to syna ale nie wiem co z tego będzie. Zawsze staram się uczestniczyć
+      w różnych zawodach , rozgrywkach klubowych. Mam kilka osiągnięć w
+      turniejach zarówno wojewódzkich jak i międzyklóbowych.W 2005 roku
+      zdobyłem 4 miejsce w plebiscycie na najlepszego sportowca ziemi
+      Mogilenskiej. W chwili obecnej przerwałem grę z powodów zdrowotnych.
+    </p>
+
+  </section>
+
+  <section class="section" id="courses">
+    <h2 class="section__header">Kilka słów o kursach</h2>
+    <p class="coursesParagraph">
+      Oprócz nauki w Youcode uczestniczyłem również w kilku innych kursach online.
+    <ul class="courses__list">
+      <li class="courses__items">Kurs bootstrap 4 od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+          target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
+      <li class="courses__items">Kurs HTML i CSS od podstaw-<a class="courses__link" href="http://udemy.com"
+          target="_blank" rel="noreffer noopener">udemy.com</a></li>
+      <li class="courses__items">Kurs zabbix od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+          target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
+      <li class="courses__items">Kurs python od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+          target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
+
+
+    </ul>
+    </p>
+  </section>
+
+  <section class="section" id="table">
+    <h2 class="section__header">Ulubieni wykonawcy</h2>
+    <div class="table__container">
+      <table class="table">
+        <caption class="table__caption">W tabeli kilku moich ulubionych wykonawców</caption>
+        <tr class="table__row">
+
+          <th class="table__cell table__header" scope="col">Wykonawca</th>
+          <th class="table__cell table__header" scope="col">Pierwszy tytuł</th>
+          <th class="table__cell table__header" scope="col">Drugi tytuł</th>
+          <th class="table__cell table__header" scope="col">Trzeci tytuł</th>
+          <th class="table__cell table__header" scope="col">Czwarty tytuł</th>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell table__header" scope="row">AC DC</th>
+          <td class="table__cell cell__text">Thunderstruck</td>
+          <td class="table__cell cell__text">Hells Bells</td>
+          <td class="table__cell cell__text">Back in Black</td>
+          <td class="table__cell cell__text">Higway to Hell</td>
+        </tr>
+
+        <tr class="table__row">
+          <th class="table__cell table__header" scope="row">Guns N' Roses</th>
+          <td class="table__cell cell__text">November Rain</td>
+          <td class="table__cell cell__text">Sweet Child O' Mine</td>
+          <td class="table__cell cell__text">Paradise City</td>
+          <td class="table__cell cell__text">Knockin' On Heaven's Door</td>
+        </tr>
+
+        <tr class="table__row">
+          <th class="table__cell table__header" scope="row">Queen</th>
+          <td class="table__cell cell__text">Bohemian Rhapsody</td>
+          <td class="table__cell cell__text">Somebody To Love</td>
+          <td class="table__cell cell__text">I Want To Break Free</td>
+          <td class="table__cell cell__text">We Will Rock You</td>
+        </tr>
+
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="contactMe">
+
+    <h2 class="section__header">Kontakt</h2>
+    <p class="contact__paragraph">Napisz do mnie
+      <a href="mailto:dawid@dable.pl">dawid@dable.pl</a>
+    </p>
+  </section>
+
+  <div class="buttons">
+
+    <button class="menu__remove js-menu__remove">Ukryj menu</button>
+    <button class="image__remove js-image__remove">Usuń moje zdjęcie</button>
+
+  </div>
+
+  <footer class="footer">
+    Dawid Stachowiak stronka wykonana w kursie Youcode w II edycji 2021
+
+  </footer>
+</body>
+
+</html>
