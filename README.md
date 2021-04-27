@@ -1,5 +1,5 @@
-# Dawid Stachowiak - moja pierwsza strona
-## My homepage
+# Dawid Stachowiak - Moja pierwsza strona
+## Demo
 https://dawidstachowiak.github.io/homepage/
 
-![zdjcie Dawid Stachowiak](/img.jpg "Dawid Stachowiak")
+![zdjcie Dawid Stachowiak](https://i.postimg.cc/cCxsyPwL/me.png "Dawid Stachowiak")
