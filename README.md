@@ -9,3 +9,10 @@ https://dawidstachowiak.github.io/homepage/
 - Html
 - CSS
 - JAVA SCRIPT
+
+The website contains basic information about me:
+
+
+* Section about me
+* My hobby
+* Favorite artists
