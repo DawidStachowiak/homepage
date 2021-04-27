@@ -2,4 +2,4 @@
 ## Demo
 https://dawidstachowiak.github.io/homepage/
 
-![alternatywny tekst](/img.jpg "Tytuł")
+![zdjcie Dawid Stachowiak](/img.jpg "Dawid Stachowiak")
