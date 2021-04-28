@@ -2,10 +2,9 @@ h1, h2 {
     font-family: 'Open Sans', sans-serif;
     padding: 5px 5px;
     text-shadow: 2px 2px 1px rgba(146, 145, 143, 0.445);
-    background-color: rgb(211, 211, 211);
-    box-shadow: 1px 4px 8px;
+    
     font-size: 20px;
-    border: 1px solid rgb(59, 59, 59);
+    border-bottom: 1px solid rgb(59, 59, 59);
 }
 
 p {
