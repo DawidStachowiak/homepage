@@ -15,7 +15,7 @@
   const oneClickMenuToggle = () => {
     
     const navigation = document.querySelector(".navigation");
-
+    const buttonMenu = document.querySelector(".js-menu__remove");
     navigation.classList.toggle("hide__navigation");
     buttonMenu.innerText = navigation.classList.contains("hide__navigation")
       ? "Pokaż menu"
