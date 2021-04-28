@@ -3,9 +3,6 @@
     console.log("Cześć wszystkim!");
   };
 
-  let button = document.querySelector(".js-image__remove");
-  let imageRemove = document.querySelector(".image");
-
   const oneClickImageRemove = () => {
     let button = document.querySelector(".js-image__remove");
     let imageRemove = document.querySelector(".image");
