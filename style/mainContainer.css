@@ -1,10 +1,10 @@
-.mainContainer {
+.main__container {
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-.mainContainer__header {
+.main__container__header {
     color: rgb(165, 42, 42);
 }
