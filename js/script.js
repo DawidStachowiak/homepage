@@ -3,7 +3,7 @@
     console.log("Cześć wszystkim!");
   }
 
-  const oneClickImageRemove = () => {
+  const ImageRemove = () => {
     const button = document.querySelector(".js-image__remove");
     const imageRemove = document.querySelector(".image");
     imageRemove.classList.toggle("hidden__image");
@@ -12,7 +12,7 @@
       : "Ukryj zdjęcie";
   };
 
-  const oneClickMenuToggle = () => {
+  const hideMenu = () => {
     const buttonMenu = document.querySelector(".js-menu__remove");
     const navigation = document.querySelector(".navigation");
     navigation.classList.toggle("hide__navigation");
@@ -23,15 +23,17 @@
 
   const init = () => {
     const button = document.querySelector(".js-image__remove");
-    button.addEventListener("click", oneClickImageRemove);
+    button.addEventListener("click", ImageRemove);
     const buttonMenu = document.querySelector(".js-menu__remove");
-    buttonMenu.addEventListener("click", oneClickMenuToggle);
+    buttonMenu.addEventListener("click", hideMenu);
     
 
-    welcome();
+    
   };
   
   
 
   init();
+
+  welcome();
 }
