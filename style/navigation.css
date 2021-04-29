@@ -1,5 +1,5 @@
 .navigation {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 10px;
     max-width: 950px;
 }
@@ -15,7 +15,8 @@
 .navigation__items {
     list-style: none;
     text-align: center;
-    margin-top: 15px;
+    
+    display: inline-block;
 }
 
 .navigation__link {
@@ -25,6 +26,7 @@
     border-color: rgb(165, 42, 42);
     padding: 10px;
     transition: 0.5s;
+    
 }
 
 .navigation__link:focus {
