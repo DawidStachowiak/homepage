@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:image" content="img/share.png">
   <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/header.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-  <link rel="stylesheet" href="style/mainContainer.css" />
+  <link rel="stylesheet" href="style/main__container.css" />
   <link rel="stylesheet" href="style/navigation.css" />
   <link rel="stylesheet" href="style/table.css" />
   <link rel="stylesheet" href="style/sections.css" />
@@ -24,16 +25,16 @@
 
 <body class="main__container">
   <header class="header">
-    <h1><span class="main__container__header">Cześć!</span> Parę słów o mnie</h1>
+    <h1><span class="header__highlightedElement">Cześć!</span> Parę słów o mnie</h1>
   </header>
 
   <nav class="navigation js-navigation">
     <ul>
-      <li class="navigation__items"><a class="navigation__link" href="#about">O mnie</a></li>
-      <li class="navigation__items"><a class="navigation__link" href="#hobby">Hobby</a></li>
-      <li class="navigation__items"><a class="navigation__link" href="#courses">Kursy</a></li>
-      <li class="navigation__items"><a class="navigation__link" href="#table">Wykonawcy</a></li>
-      <li class="navigation__items"><a class="navigation__link" href="#contactMe">Kontakt</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#about">O mnie</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#hobby">Hobby</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#courses">Kursy</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#table">Wykonawcy</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#contactMe">Kontakt</a></li>
     </ul>
   </nav>
 
@@ -41,7 +42,7 @@
 
   <section class="section" id="about">
     <h2 class="section__header">O mnie</h2>
-    <img class="image" src="img/me.png" alt="zdjecie Dawid Stachowiak" />
+    <img class="section__aboutImage" src="https://i.postimg.cc/L6DCNJJs/me.png" alt="zdjecie Dawid Stachowiak" />
     <p>
       Cześć. Mam na imię Dawid, mam 33 lata (w tym roku 34 :) ) na codzień
       zajmuję się obsługą informatyczną firm. Po pracy staram się spędzić czas
@@ -70,16 +71,16 @@
 
   <section class="section" id="courses">
     <h2 class="section__header">Kilka słów o kursach</h2>
-    <p class="courses__paragraph">
+    <p class="section__paragraph">
       Oprócz nauki w Youcode uczestniczyłem również w kilku innych kursach online.
-    <ul class="courses__list">
-      <li class="courses__items">Kurs bootstrap 4 od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+    <ul class="section__coursesList">
+      <li class="section__coursesItem">Kurs bootstrap 4 od podstaw-<a class="section__coursesLink" href="http://strefakursów.pl"
           target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
-      <li class="courses__items">Kurs HTML i CSS od podstaw-<a class="courses__link" href="http://udemy.com"
+      <li class="section__coursesItem">Kurs HTML i CSS od podstaw-<a class="section__coursesLink" href="http://udemy.com"
           target="_blank" rel="noreffer noopener">udemy.com</a></li>
-      <li class="courses__items">Kurs zabbix od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+      <li class="section__coursesItem">Kurs zabbix od podstaw-<a class="section__coursesLink" href="http://strefakursów.pl"
           target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
-      <li class="courses__items">Kurs python od podstaw-<a class="courses__link" href="http://strefakursów.pl"
+      <li class="section__coursesItem">Kurs python od podstaw-<a class="section__coursesLink" href="http://strefakursów.pl"
           target="_blank" rel="noreffer noopener">strefakursów.pl</a></li>
 
 
@@ -89,19 +90,19 @@
 
   <section class="section" id="table">
     <h2 class="section__header">Ulubieni wykonawcy</h2>
-    <div class="table__container">
+    <div class="section__tableContainer">
       <table class="table">
         <caption class="table__caption">W tabeli kilku moich ulubionych wykonawców</caption>
         <tr class="table__row">
 
-          <th class="table__cell table__header" scope="col">Wykonawca</th>
-          <th class="table__cell table__header" scope="col">Pierwszy tytuł</th>
-          <th class="table__cell table__header" scope="col">Drugi tytuł</th>
-          <th class="table__cell table__header" scope="col">Trzeci tytuł</th>
-          <th class="table__cell table__header" scope="col">Czwarty tytuł</th>
+          <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+          <th class="table__cell table__cell--header" scope="col">Pierwszy tytuł</th>
+          <th class="table__cell table__cell--header" scope="col">Drugi tytuł</th>
+          <th class="table__cell table__cell--header" scope="col">Trzeci tytuł</th>
+          <th class="table__cell table__cell--header" scope="col">Czwarty tytuł</th>
         </tr>
         <tr class="table__row">
-          <th class="table__cell table__header" scope="row">AC DC</th>
+          <th class="table__cell table__cell--header" scope="row">AC DC</th>
           <td class="table__cell cell__text">Thunderstruck</td>
           <td class="table__cell cell__text">Hells Bells</td>
           <td class="table__cell cell__text">Back in Black</td>
@@ -109,7 +110,7 @@
         </tr>
 
         <tr class="table__row">
-          <th class="table__cell table__header" scope="row">Guns N' Roses</th>
+          <th class="table__cell table__cell--header" scope="row">Guns N' Roses</th>
           <td class="table__cell cell__text">November Rain</td>
           <td class="table__cell cell__text">Sweet Child O' Mine</td>
           <td class="table__cell cell__text">Paradise City</td>
@@ -117,7 +118,7 @@
         </tr>
 
         <tr class="table__row">
-          <th class="table__cell table__header" scope="row">Queen</th>
+          <th class="table__cell table__cell--header" scope="row">Queen</th>
           <td class="table__cell cell__text">Bohemian Rhapsody</td>
           <td class="table__cell cell__text">Somebody To Love</td>
           <td class="table__cell cell__text">I Want To Break Free</td>
