@@ -4,10 +4,10 @@
   }
 
   const ImageRemove = () => {
-    const button = document.querySelector(".js-image__remove");
-    const imageRemove = document.querySelector(".image");
+    const imageButton = document.querySelector(".js-image__remove");
+    const imageRemove = document.querySelector(".section__aboutImage");
     imageRemove.classList.toggle("hidden__image");
-    button.innerText = imageRemove.classList.contains("hidden__image")
+    imageButton.innerText = imageRemove.classList.contains("hidden__image")
       ? "Pokaż zdjęcie"
       : "Ukryj zdjęcie";
   };
@@ -22,8 +22,8 @@
   };
 
   const init = () => {
-    const button = document.querySelector(".js-image__remove");
-    button.addEventListener("click", ImageRemove);
+    const imageButton = document.querySelector(".js-image__remove");
+    imageButton.addEventListener("click", ImageRemove);
     const buttonMenu = document.querySelector(".js-menu__remove");
     buttonMenu.addEventListener("click", hideMenu);
     
