@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-.table__header {
+.table__cell--header {
     background-color: rgb(71, 141, 240);
 }
 
@@ -41,6 +41,3 @@
     color: rgb(34, 34, 34)
 }
 
-.table__container {
-    overflow-x: auto;
-}

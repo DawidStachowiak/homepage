@@ -12,7 +12,7 @@
     display: none;
 }
 
-.navigation__items {
+.navigation__item {
     list-style: none;
     text-align: center;
     
@@ -38,3 +38,15 @@
     border-bottom: 1px solid rgb(165, 42, 42);
     outline: none;
 }
+
+ul{
+    padding:0px;
+}
+
+@media (max-width: 600px) {
+.navigation__item {
+    display: block;
+    margin-top: 15px ;
+
+
+}}
